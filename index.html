@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>MarkUp III</title>
 </head>
 <body>
     <section class="container">
         <div class="statusProcess">
-            <p>1.Cabin</p>
-            <p>2.Meals</p>
-            <p>3.Updgrades</p>
-            <p>4.Payment</p>
+            <div class="number num1">1</div>
+            <div><p>Cabin</p></div>
+            <div class="line line1"></div>
+            <div class="number num2">2</div>
+            <div><p>Meals</p></div>
+            <div class="line line2"></div>
+            <div class="number num3">3</div>
+            <div><p>Updgrades</p></div>
+            <div class="line line3"></div>
+            <div class="number num4">4</div>
+            <div> <p>Payment</p></div>            
         </div>
 
+        <p style="padding-top: 20px; padding-left:15px; font-weight:bold; color:black;">Meal Preferences</p>
+
         <div class="mealTxtDiv">
-            <p>Meal Preferences</p>
+            
             <p>Your flight comes with breakfast, lunch and dinner. Please make your selections below. 
                 Changes to your order can be made up to 48 hours before your flight</p>
         </div>
@@ -25,7 +34,7 @@
         <div class="foodbyhour">
             <div class="foodcontainer">
                 <p>Breakfast</p>                
-                <select name="breakfasts" id="breakfasts">
+                <select name="foods" class="foods">
                   <option value="sausageegg">Sausage Egg Scramble Bowl</option>
                   <option value="hotcakes">Hot Cakes</option>
                   <option value="strawwithhoney">Strawberries with honey</option>
@@ -33,12 +42,52 @@
             </div>
             <div class="drinkcontainer">
                 <p>Drink</p>                
-                <select name="drinks" id="drinks">
+                <select name="drinks" class="drinks">
                   <option value="coffee">Coffee</option>
                   <option value="freshwater1">Horchata</option>
                   <option value="freshwater2">Jamaica</option>
                 </select>
             </div>
+            <div class="foodcontainer">
+                <p>Lunch</p>                
+                <select name="foods" class="foods">
+                  <option value="clubsandwich">Club Sandwich Meal</option>
+                  <option value="freshsalat">Fresh Salat with chicken</option>
+                  <option value="fruitwithoat">Fruit, oat and honey</option>
+                </select>
+            </div>
+            <div class="drinkcontainer">
+                <p>Drink</p>                
+                <select name="drinks" class="drinks">
+                  <option value="Cranberryjuice">Cranberry Juice</option>
+                  <option value="Orangejuice">Orange juice</option>
+                  <option value="Mineralwater">Mineral water</option>
+                </select>
+            </div>
+            <div class="foodcontainer">
+                <p>Dinner</p>                
+                <select name="foods" class="foods">
+                  <option value="WagyuBeef">Wagyu Beef Sliders Meal</option>
+                  <option value="Buffalosalat">Buffalo chicken with salat</option>
+                  <option value="Pizzamargarita">Pizza margarita</option>
+                </select>
+            </div>
+            <div class="drinkcontainer">
+                <p>Drink</p>                
+                <select name="drinks" class="drinks">
+                  <option value="redwine">Red Wine</option>
+                  <option value="coconutwater">Coconut water</option>
+                  <option value="soda">Soda</option>
+                </select>
+            </div>
+            
+        </div>
+        <div class="cboxcontainer">
+            <input type="checkbox" class="cbox" value="checkbox"> <label for="cbox">I'd like dessert, too!</label>
+        </div>
+        <div class="btnContainer">
+            <button type="button" class="button btnBack">Back</button>
+            <button type="button" class="button btnContinue">Continue</button>
         </div>
 
 

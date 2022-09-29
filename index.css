@@ -9,22 +9,53 @@
 
   body{    
     min-height: 100vh;
-    background-color: #bdc0c5;
+    background-color: #e0d5d5;
+    font-family:Arial, Helvetica, sans-serif;
+    color:grey;
   }
 
 
   .container{      
-    background-color: #b8bbc2;
+    background-color: #f5f5f5;
     justify-content: center;
     gap: 20px;
-    padding-top: 10px;
+    
     padding-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 30px;;
   } 
 
   .statusProcess{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgb(236, 236, 236);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+  }
+
+  .statusProcess .number{
+    height:38px;
+    width:40px;
+    background-color: white;
+    color: rgb(112, 27, 192);
+    font-weight: bold;
+    border-radius: 50%;
+    padding-top: 10px;
+  }
+  .statusProcess .line {
+    height: 3px;
+    width: 40px;
+    background-color: gray;
+    margin-top: 16px;
+
+  }
+
+  .statusProcess p{
+    margin-top: 10px;
   }
 
   .mealTxtDiv{
@@ -38,6 +69,65 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
   }
 
+  .foodbyhour p{
+    padding-bottom: 7px;
+    padding-top: 22px;
+  }
+
+  .foodbyhour .foods{
+    height: 30px;;
+    width: 400px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+  }
+  .foodbyhour .drinks{
+    height: 30px;
+    width: 200px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+  }
+
+  .cboxcontainer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .btnContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cboxcontainer input.cbox{
+    transform : scale(1.4);
+    margin-right: 10px;
+  }
+
+  .button {
+    border: 1px solid rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+    background: whitesmoke;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btnContinue{
+    color: white;
+    background:rgb(112, 27, 192);
+    border: 1px solid rgb(112, 27, 192);
+  }
+
+  
 
