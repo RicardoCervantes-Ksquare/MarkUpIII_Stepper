@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;    
+    box-sizing: border-box;
+    
+  }
+
+  body{    
+    min-height: 100vh;
+    background-color: #bdc0c5;
+  }
+
+
+  .container{      
+    background-color: #b8bbc2;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+
+  .statusProcess{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mealTxtDiv{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foodbyhour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
